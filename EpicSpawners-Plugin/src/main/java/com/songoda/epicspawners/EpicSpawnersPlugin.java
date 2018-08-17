@@ -128,9 +128,10 @@ public class EpicSpawnersPlugin extends JavaPlugin implements EpicSpawners {
 
         ConsoleCommandSender console = Bukkit.getConsoleSender();
         console.sendMessage(TextComponent.formatText("&a============================="));
-        console.sendMessage(TextComponent.formatText("&7EpicSpawners " + this.getDescription().getVersion() + " by &5Brianna <3&7!"));
+        console.sendMessage(TextComponent.formatText("&7EpicSpawners " + this.getDescription().getVersion() + " by &5Songoda <3&7!"));
         console.sendMessage(TextComponent.formatText("&7Action: &aEnabling&7..."));
-
+        console.sendMessage(TextComponent.formatText("&a============================="));
+        
         this.heads = new Heads(this);
         this.settingsManager = new SettingsManager(this);
 
